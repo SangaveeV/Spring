@@ -1,0 +1,70 @@
+@charset "ISO-8859-1";
+h4{
+	font-family:cursive;
+	font-size: 50px;
+	color: maroon;
+	text-align: center;
+}
+
+body{
+	background-image: url(back.jpg);
+	background-size: cover;
+	
+}
+.table{
+	font-family:sans-serif;
+	font-size: 15px;
+	padding-left : 400px;
+	padding-right: 200px;	
+}
+h5{
+	font-family: cursive;
+	font-size: 20px;
+	color: maroon;
+	padding-left: 30px;	
+}
+#cart{
+	font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width:70%;
+    padding-left: 500px;
+}
+
+#cart th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  background-color: #b95c00;
+  color: white;
+}
+#cart td, #cart th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#cart tr:nth-child(even){background-color: #c69971;}
+
+#cart tr:hover {background-color: #ddd;}
+.discount{
+	color: maroon;
+	font-family:sans-serif;
+	font-size: 20px;
+	padding-left : 400px;
+	padding-right: 200px;
+}
+input[type=text] {
+  width: 20%;
+  padding: 9px 9px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.btn{
+	background: #0066A2;
+	color: white;
+	border-style: outset;
+	border-color: #0066A2;
+	height: 40px;
+	width: 180px;
+	font: bold 15px arial, sans-serif;
+	text-shadow:none;
+}

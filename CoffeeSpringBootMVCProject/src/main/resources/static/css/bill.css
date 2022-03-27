@@ -1,0 +1,90 @@
+@charset "ISO-8859-1";
+h4{
+	font-family:cursive;
+	font-size: 50px;
+	color: maroon;
+	text-align: center;
+}
+
+body{
+	background-image: url(back.jpg);
+	background-size: cover;
+	
+}
+.table{
+	font-family:sans-serif;
+	font-size: 15px;
+	padding-left : 400px;
+	padding-right: 200px;
+	
+}
+h5{
+	font-family: cursive;
+	font-size: 20px;
+	color: maroon;
+	padding-left: 300px;	
+}
+h3{
+	font-family: cursive;
+	font-size: 20px;
+	color: maroon;
+	padding-left: 30px;	
+}
+p{
+	font-family: cursive;
+	font-size: 20px;
+	color: maroon;
+	padding-left: 500px;	
+}
+.table{
+	font-family:sans-serif;
+	font-size: 15px;
+	padding-left : 400px;
+	padding-right: 200px;	
+	border-color: maroon;
+}
+#carts{
+	font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width:70%;
+    padding-left: 500px;
+}
+
+#carts th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  background-color: #b95c00;
+  color: white;
+}
+#carts td, #cart th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#carts tr{background-color: #c69971;}
+
+#carts tr:hover {background-color: #ddd;}
+
+#invoice{
+	font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width:70%;
+    border-color: white;
+}
+#invoice th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  background-color: #b95c00;
+  color: white;
+  border-color: white
+}
+
+#invoice td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  color: white; 
+  font-family: sans-serif;
+}
+#invoice tr{background-color: #c69971;}
+#invoice tr:hover {background-color: #ddd;}
